@@ -10,7 +10,16 @@ function App() {
           <Dictionary defaultKeyword="beach" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Sonique Middleton</small>
+          <small>
+            This project was coded by Sonique Middleton, it is{" "}
+            <a href="https://github.com/soniqmidd/dictionary-project-react">
+              open-sourced on Github
+            </a>{" "}
+            and is{" "}
+            <a href="https://app.netlify.com/sites/amazing-moonbeam-31a2ba/overview">
+              hosted on Netlify
+            </a>
+          </small>
         </footer>
       </div>
     </div>
