@@ -1,12 +1,17 @@
 body {
   background: #f9f8fe;
+  padding: 60px 0 100px;
 }
 
-a {
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.App a {
   color: rgba(6, 6, 160, 0.944) 3, 3, 243;
 }
 
-a:selected {
+.App a:selected {
   color: rebeccapurple;
 }
 
